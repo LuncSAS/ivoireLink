@@ -1,0 +1,176 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:image" content="https://lunc.fr/img/lunc.png">
+  <meta name="author" content="Lunc">
+  <meta name="description" content="Une application mobile et une interface web pour faciliter la mise en relation entre les citoyens Ivoiriens et les administration">
+  <meta name="keywords" content="application mobile, interface web, solution de téléphonie, identification, sécurisation, échanges simplifiés, mise en relation simplifiée, démarches administratives, réponses rapides, citoyens, administrations, contacter en 1 clic, multi-appels, créneaux de disponibilités, journal d’appels, mails, équité, sécurité, gratuité, efficacité.">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.lunc.fr/" />
+  <!-- Twitter Card meta -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="Lunc.fr">
+  <meta name="twitter:title" content="Une application mobile et une interface web pour faciliter la mise en relation entre les citoyens Ivoiriens et les administration">
+  <meta name="twitter:description" content="application mobile, interface web, solution de téléphonie, identification, sécurisation, échanges simplifiés, mise en relation simplifiée, démarches administratives, réponses rapides, citoyens, administrations, contacter en 1 clic, multi-appels, créneaux de disponibilités, journal d’appels, mails, équité, sécurité, gratuité, efficacité.">
+  <meta name="twitter:image" content="https://lunc.fr/img/lunc.png">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
+  <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
+  <title>IvoireLink – Application mobile</title>
+
+</head>
+
+<body>
+  <div id="overlay" class="overlay-loading">
+    <img src="img/logo-nav.svg" alt="logo ivoire link">
+  </div>
+  <header>
+    <nav id="nav-bar">
+      <div class="wrapper" id="wrapper">
+        <a class="logo" href="index.html"> <img src="img/logo-nav.svg" alt="logo ivoire link"></a>
+        <div class="nav-list-1">
+          <a href="index.html">Citoyens</a>
+          <a href="administrations.html">Administrations</a>
+          <a class="bar" href="contact.html">Contact</a>
+        </div>
+        <div class="nav-list-2">
+          <a href="#" class="btn"><span>Obtenir l'application</span></a>
+        </div>
+      </div>
+      <a class="burger"></a>
+    </nav>
+  </header>
+  <div class="overlay-dropdown"></div>
+  <section class="contact">
+    <div class="main-wrapper">
+      <div class="wrapper">
+        <div class="content-left">
+          <h1>Restons en contact</h1>
+          <p>N’hésitez pas à nous faire part de vos remarques, suggestions et demandes. Nous vous répondrons dans les plus brefs délais.</p>
+          <div class="formulaire">
+            <form>
+              <div class="group">
+                <div class="overline">Nom complet <span class="color">*</span></div>
+                <input id="nom" type="text" placeholder="p. ex., Didier Drogba" required>
+              </div>
+              <!-- <div class="group">
+                <div class="overline">Quelle est votre requête ? <span class="color">*</span></div>
+                <button class="btn outline dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Veuillez sélectionner<i class="material-icons">
+arrow_drop_down
+</i></button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Requête 1</a>
+                  <a class="dropdown-item" href="#">Requête 2</a>
+                  <a class="dropdown-item" href="#">Requête 3</a>
+                  <a class="dropdown-item" href="#">Requête 4</a>
+                  <a class="dropdown-item" href="#">Requête 5</a>
+                  <a class="dropdown-item" href="#">Requête 6</a>
+                </div>
+              </div> -->
+              <div class="group">
+                <div class="overline">Adresse email <span class="color">*</span></div>
+                <input id="email" type="text" placeholder="nom@nomdedomaine.com" required>
+              </div>
+              <div class="group">
+                <div class="overline">Numéro de téléphone <span class="color">*</span></div>
+                <input id="telephone" type="text" placeholder="Numéro complet (préfixe inclus)" required>
+              </div>
+              <div class="group full-width">
+                <div class="overline">Comment pouvons-nous vous aider ? <span class="color">*</span></div>
+                <textarea type="text" placeholder="Dites-nous ce dont vous avez besoin." id="message"></textarea>
+                <div class="envoyer">
+                  <button id="send" class="send" data-i18n="contact.send">Envoyer</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="content-right">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <div class="main-wrapper">
+      <div class="wrapper">
+        <div class="content-left">
+          <img class="logo" src="img/logo-footer.svg" alt="logo ivoire link">
+          <p class="h2">Une application et une interface web uniques pour entrer en relation rapidement avec le bon interlocuteur et obtenir des réponses immédiates.</p>
+        </div>
+        <div class="content-right">
+          <div class="wrapper">
+            <div class="content">
+              <p class="h2 bold">En savoir plus</p>
+              <a href="contact.html">Contactez-nous</a>
+              <a href="mentions-legales.html">Mentions légales</a>
+            </div>
+            <div class="content">
+              <p class="h2 bold">L’entreprise</p>
+              <a href="mentions-legales.html">CGV</a>
+            </div>
+            <div class="content">
+              <p class="h2 bold">Suivre LUNC</p>
+              <div class="wrapper">
+                <a href="https://fr.linkedin.com/company/lunc"><img class="no-margin" src="img/linkedin.svg" alt="logo linkedin"></a>
+                <a href="https://twitter.com/LUNC_startup"><img src="img/twitter.svg" alt="logo twitter"></a>
+                <a href="https://www.instagram.com/lunc_startup/"><img src="img/instagram.svg" alt="logo instagram"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sub-footer">
+        <div class="wrapper">
+          <p class="h2">© 2018 LUNC</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="js/scrollreveal.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/jquery.cookieBar.js"></script>
+  <script>
+    $(window).load(function() {
+      $('#overlay').addClass("close");
+    });
+  </script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.cookie-message').cookieBar({
+        closeButton: '.close-cookie',
+        hideOnClose: false
+      });
+      $('.cookie-message').on('cookieBar-close', function() {
+        $(this).slideUp();
+      });
+    });
+  </script>
+</body>
+
+</html>
