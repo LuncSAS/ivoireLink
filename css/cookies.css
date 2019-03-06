@@ -16,3 +16,8 @@ ul, li{
 ul{
   margin:30px 0px;
 }
+
+
+h1{
+  text-align: left !important;
+}
